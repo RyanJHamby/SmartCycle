@@ -1,0 +1,25 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateRpi1($mac_Id: String, $ts: Int) {
+  onCreateRpi1(mac_Id: $mac_Id, ts: $ts) {
+    mac_Id
+    ts
+    random_string
+    random_number
+  }
+}
+subscription OnUpdateRpi1($mac_Id: String, $ts: Int) {
+  onUpdateRpi1(mac_Id: $mac_Id, ts: $ts) {
+    mac_Id
+    ts
+    random_string
+    random_number
+  }
+}
+subscription OnDeleteRpi1($mac_Id: String, $ts: Int) {
+  onDeleteRpi1(mac_Id: $mac_Id, ts: $ts) {
+    mac_Id
+    ts
+    random_string
+    random_number
+  }
+}

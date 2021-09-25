@@ -1,0 +1,25 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateRpi1($input: CreateRpi1Input!) {
+  createRpi1(input: $input) {
+    mac_Id
+    ts
+    random_string
+    random_number
+  }
+}
+mutation UpdateRpi1($input: UpdateRpi1Input!) {
+  updateRpi1(input: $input) {
+    mac_Id
+    ts
+    random_string
+    random_number
+  }
+}
+mutation DeleteRpi1($input: DeleteRpi1Input!) {
+  deleteRpi1(input: $input) {
+    mac_Id
+    ts
+    random_string
+    random_number
+  }
+}

@@ -1,0 +1,24 @@
+# this is an auto generated file. This will be overwritten
+query GetRpi1($mac_Id: String!) {
+  getRpi1(mac_Id: $mac_Id) {
+    mac_Id
+    ts
+    random_string
+    random_number
+  }
+}
+query ListRpi1S(
+  $filter: TableRpi1FilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listRpi1S(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      mac_Id
+      ts
+      random_string
+      random_number
+    }
+    nextToken
+  }
+}
